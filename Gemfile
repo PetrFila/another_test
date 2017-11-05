@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'shrine', '~> 2.8'
+gem 'cloudinary', '~> 1.6'
+gem 'shrine-cloudinary', '~> 0.5.0'
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails'
 
